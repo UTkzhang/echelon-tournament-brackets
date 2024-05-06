@@ -1,5 +1,6 @@
 import SingleEliminationBracket from './bracket-single/single-elim-bracket';
 import DoubleEliminationBracket from './bracket-double/double-elim-bracket';
+import SwissBracket from './bracket-swiss/swiss-bracket';
 import Match from './components/match';
 import { MATCH_STATES } from './core/match-states';
 import SVGViewer from './svg-viewer';
@@ -22,6 +23,7 @@ export {
 export {
   SingleEliminationBracket,
   DoubleEliminationBracket,
+  SwissBracket,
   Match,
   MATCH_STATES,
   SVGViewer,
